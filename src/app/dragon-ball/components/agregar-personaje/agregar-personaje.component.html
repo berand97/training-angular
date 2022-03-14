@@ -1,0 +1,12 @@
+<form (ngSubmit)="submit()">
+  <div class="form-group">
+    <label class="form-label">Nombre</label>
+    <input type="text" class="form-control" name="nombre" [(ngModel)]="nuevo.nombre" placeholder="Personaje">
+    <!-- <small class="form-text text-danger">We'll never share your email with anyone else.</small> -->
+  </div>
+  <div class="form-group">
+    <label class="form-label">Password</label>
+    <input type="number" class="form-control" name="poder" [(ngModel)]="nuevo.poder" placeholder="poder">
+  </div>
+  <button type="submit" class="btn btn-primary mt-5">Crear</button>
+</form>
